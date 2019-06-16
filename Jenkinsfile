@@ -18,6 +18,7 @@ pipeline {
       }
       steps {
         sh './jenkins/scripts/test.sh'
+        sh 'touch test.txt'
       }
     }
     stage('Deliver') {
