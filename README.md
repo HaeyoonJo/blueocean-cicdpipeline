@@ -38,7 +38,7 @@ Jenkins [site](https://www.jenkins.io/) 및 [docs](https://www.jenkins.io/doc/#w
 즉, Jenkins는 대부분 개발언어와 레파지토리를 통해 자동화 및 빌드 파이프라인 지원하는 CI tool로써, 각 단계에 대해 쉽고 빠르게 Build, Test 및 Deployment 체인된 통합도구로 제공을 하고 있다.  
 추가적으로 Jenkins에서 간단한 작업은 bash, python과 같은 스크립트 언어로 작성하여 필요한 작업을 할 수 있다.
 
-2. 2가지 use cases
+2. Use cases
 
 Jenkins에서 간단하면서 중요한 2가지의 use cases를 살펴보자.
 
