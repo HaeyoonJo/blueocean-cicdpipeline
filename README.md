@@ -54,3 +54,13 @@ Jenkins [site](https://www.jenkins.io/) 및 [docs](https://www.jenkins.io/doc/#w
 - [useful-jenkins-plugins](https://www.hugeinc.com/articles/list-of-useful-jenkins-plugins)  
 - [essential-jenkins-plugins](https://www.functionize.com/blog/4-essential-jenkins-plugins/)  
 - [jenkins-plugins](https://caylent.com/jenkins-plugins)  
+
+## Building a simple Node.js and React webapp using Blueocean plugin
+
+1. What I get: CICD deployment using Jenkinsfile, understanding Jenkinsfile
+
+2. Process:  
+  - Create docker Network, Volume using docker and pull 'jenkinsci/blueocean' docker image
+  - Get 'Docker TLS certs' from docker:dind docker image
+  - Binding 3000 port to the worker node for Node.js app using Jenkinsfile
+  - it's needs to commit the code changes to local or remote git server then, it will deploy the modified web app in order to build up
